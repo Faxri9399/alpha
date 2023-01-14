@@ -1,0 +1,264 @@
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.navbar ul .btn:nth-child(2) {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar ul .btn {
+    background-color: #fff;
+    border-radius: 15px;
+    box-sizing: none;
+    cursor: pointer;
+    border: 0.5px solid blue;
+    width: 100px;
+    height: 30px;
+}
+
+.navbar ul .btn:hover {
+    background: rgba(207, 170, 170, 0.13);
+    color: blue;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.section1 .section1_text {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.section1 .section1_img {
+margin-right: 200px;    
+}
+
+.section1_text .email input {
+    border-radius: 15px;
+    border: 0.5px solid blue;
+    width: 250px;
+    height: 30px;
+}
+ 
+.section1_text .btn1 {
+    border-radius: 15px;
+    border: 0.5px solid blue;
+    width: 250px;
+    height: 30px;
+}
+
+.section1_text .btn1:hover {
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section1 .section1_img img {
+    width: 400px;
+    height: 400px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section2_text {
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: rgb(165, 116, 42);
+}
+
+.section2_text p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.section2 span {
+    text-transform: uppercase;
+}
+
+.section2_img1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+
+.section2_img1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.section2_img1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: aqua;
+}
+
+.section2_img2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.section2_img2 img {
+    width: 120px;
+    height: 120px;
+}
+
+.section2_img2 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: aqua;
+}
+
+.card {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 250px;
+   margin-right: 250px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.card h3 {
+    color: blue;
+    text-align: center;
+}
+
+.card p {
+    color: #333;
+    text-align: center;
+}
+
+.card img {
+    background: rgba(159, 166, 238, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    background: #fff;
+    box-shadow: 1px 3px 20px rgba(208, 208, 208, 0.4);
+    padding: 30px 40px;
+    margin-left: 10px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: blue;
+    margin-bottom: 50px;
+}
+
+.section3_text h1 {
+    color: #fff;
+    margin-left: 250px;
+    font-family: sans-serif;
+}
+
+.section3_text p {
+    color: #fff;
+    margin-left: 250px;
+    font-family: sans-serif;
+}
+
+.section3 .knopok {
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-right: 300px;
+    width: 150px;
+    height: 30px;
+}
+
+.section3 .knopok:hover {
+    background: #fff;
+    color: red;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+footer ul li:nth-child(1) {
+    margin-left: 200px;
+}
+
+footer .image {
+    text-align: center;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icon1 img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+footer .icon2 img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 250px;
+}
